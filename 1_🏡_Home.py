@@ -17,7 +17,7 @@ if "data" not in st.session_state:
     st.session_state["data"] = df_data
 
 st.markdown('# FIFA23 OFFICIAL DATASET!⚽')
-st.sidebar.markdown('Desenvolvido por @ERSG2811')
+st.sidebar.markdown("Desenvolvido por [@ERSG2811](https://www.linkedin.com/in/edgard-gandin/)", unsafe_allow_html=True)
 
 btn = st.link_button(
     'Acesse os dados no Kaggle',
