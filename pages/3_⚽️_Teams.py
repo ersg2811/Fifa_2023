@@ -12,7 +12,7 @@ clubes = df_data["Club"].value_counts().index
 club = st.sidebar.selectbox("Clube", clubes)
 
 st.sidebar.divider()
-st.sidebar.markdown('Desenvolvido por @ERSG2811')
+st.sidebar.markdown("Desenvolvido por [@ERSG2811](https://www.linkedin.com/in/edgard-gandin/)", unsafe_allow_html=True)
 
 df_filtered = df_data[(df_data["Club"] == club)].set_index("Name")
 
