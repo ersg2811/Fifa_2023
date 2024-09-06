@@ -15,7 +15,7 @@ players = df_players["Name"].value_counts().index
 player = st.sidebar.selectbox("Jogador", players)
 
 st.sidebar.divider()
-st.sidebar.markdown('Desenvolvido por @ERSG2811')
+st.sidebar.markdown("Desenvolvido por [@ERSG2811](https://www.linkedin.com/in/edgard-gandin/)", unsafe_allow_html=True)
 
 player_stats = df_data[df_data["Name"] == player].iloc[0]
 
