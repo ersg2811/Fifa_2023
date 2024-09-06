@@ -20,3 +20,7 @@ O dataset contém informações detalhadas sobre jogadores de futebol do FIFA 20
 1. Clone este repositório:
    ```bash
    git clone https://github.com/ersg2811/Fifa_2023.git
+
+## Deploy
+
+Você pode acessar a aplicação hospedada online através deste link: [FIFA 2023 Streamlit App](https://fifa2023deploy.streamlit.app/)
